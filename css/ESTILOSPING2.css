@@ -23,10 +23,12 @@ html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+    
 }
 
 body {
     margin: 0;
+    background-color: #8B0F56;
 }
 
 article,
@@ -8101,5 +8103,45 @@ body {
     background-attachment: fixed;
 }
 
+.section-A {
+        background-color: #8B0F56;
+    }
+    
+@media (min-width: 768px) and (max-width: 991px) { .section-A {
+        background-color: #8B0F56;
+    }
+}
+
+@media (min-width: 992px) { .section-A {
+        background-color: #8B0F56;
+    } 
+}
+
+    .sectionB {
+        background-color: #EC8300;
+    }
+
+@media (min-width: 768px) and (max-width: 991px) { .sectionb {
+        background-color: #EC8300;
+    } 
+}
+
+@media (min-width: 992px) { .sectionb {
+        background-color: #EC8300;
+    } 
+}
+    
+
+
+    .sectionc {
+        background-color: #8B0F56;
+        box-shadow: 0px -5px 20px #580836;
+    }
+    
+    .sectiond {
+        background-color: #EC8300;
+        box-shadow: 0px -5px 20px #c76e00;
+    }
+    
 
 /* PINGENDO COMMENT DO NOT REMOVE */
